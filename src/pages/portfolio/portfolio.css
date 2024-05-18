@@ -4,13 +4,13 @@
 
 .portfolio__item {
   position: relative;
-  border-radius: 10px;
+  border-radius: 40px;
   overflow: hidden;
   cursor: pointer;
 }
 
 .portfolio__img {
-  height: 250px;
+  height: 270px;
   width: 100%;
   object-fit: cover;
 }

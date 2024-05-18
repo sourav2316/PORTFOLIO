@@ -8,6 +8,7 @@ import {
   FaCode,
 } from "react-icons/fa";
 import { FiFileText, FiUser, FiExternalLink } from "react-icons/fi";
+import { IoCodeWorking } from "react-icons/io5";
 
 import Work1 from "./assets/project-1.png";
 import Work2 from "./assets/project-2.png";
@@ -245,9 +246,17 @@ export const portfolio = [
         desc: "Website",
       },
       {
-        icon: <FiUser />,
-        title: "Client : ",
-        desc: "None",
+        icon: <IoCodeWorking />,
+        title: "Code : ",
+        desc: (
+          <a
+            href="https://github.com/sourav2316/e-Commerce-Website.git"
+            target="_blank"
+            className="clickMe"
+          >
+            Here
+          </a>
+        ),
       },
       {
         icon: <FaCode />,
